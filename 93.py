@@ -1,1 +1,8 @@
-print("This python file is only to check that it is pushing or not to GitHub: ")
+import pickle
+data = {
+    "Devansh" : "Java",
+    "DevanshBot" : "Python"
+}
+
+with open("Dev.pkl", 'wb') as f:
+    pickle.dump(data, f)
